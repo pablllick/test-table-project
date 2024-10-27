@@ -1,0 +1,120 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-height: 100%;
+}
+
+.company-table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #4a90e2;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.column-titles th {
+  padding: 12px;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  gap: 10px;
+  padding: 10px;
+}
+
+.select-all-checkbox {
+  margin-right: 8px;
+  transform: scale(1.5);
+}
+
+.company-row {
+  transition: background-color 0.2s ease;
+}
+
+.company-row:hover {
+  background-color: #f1f3f5;
+}
+
+.selected-row {
+  background-color: #e0e7ff;
+}
+
+.cell-checkbox {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.cell-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  transform: scale(1.3);
+  accent-color: #4a90e2;
+  margin: 5px;
+}
+
+.cell-input {
+  padding: 0;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.company-input {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.company-input:focus {
+  background-color: #e7f3ff;
+  height: 100%;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

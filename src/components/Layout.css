@@ -1,0 +1,23 @@
+body {
+  background-color: #f4f7fa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.layout-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.layout-title {
+  font-size: 2em;
+  font-weight: 600;
+  color: #4a90e2;
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
